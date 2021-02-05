@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +7,16 @@
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: auto;
-    font-family: Raleway,AdobeInvisFont,MyriadPro-Regular;
     font-size: 14px;
 }
 .first-block {
     background: #1D1C1C;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
+    font-family: Raleway,AdobeInvisFont,MyriadPro-Regular;
 }
 
 .first-block__box {
@@ -32,6 +32,10 @@
     color: #FFFFFF;
     font-size: 14px;
     text-align: center;
+}
+
+.first-block__content p {
+    padding-bottom: 7px;
 }
 
 .first-block__content_icone {
@@ -53,10 +57,11 @@
    text-align: center;
    padding-top: 30px;
    padding-bottom: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-size:15px;
 }
 
 .second-block__content_title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -95,14 +100,13 @@
     .first-block {
         flex-direction: row;
         justify-content: space-around;
-        padding-top: 107px ;
-        padding-bottom: 105px;
+        padding-top: 67px ;
+        padding-bottom: 80px;
         
     }
     
     .first-block__box {
-        margin: 0;
-        padding: 0px 5px;
+        margin: 0px 5px;
     }
     
     .first-block__content h2 {
