@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    font-family:OpenSans-Semibold,AdobeInvisFont,MyriadPro-Regular;
+}
+.first-block {
+    background: #1D1C1C;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;   
+}
+
+.first-block__box {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 318px;
+    padding-top: 50px;
+}
+
+.first-block__content {
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+
+.first-block__content_icone {
+    background: #FFAE00;
+    width: 81px;
+    height: 81px;
+    border-radius: 30px 0px 30px 0px;
+    padding: 22px;
+}
+
+.first-block__content h2 {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.second-block {
+   background: #121116;
+   color: #ffffff;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+
+.second-block__content_title {
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.second-block__content_lyne {
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 1px;
+    margin: auto;
+}
+.second-block__content_social {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.second-block__content_social img {
+    padding: 0px 5px;
+}
+
+.second-block__content_footer {
+    font-size: 15px;
+    padding-top: 40px ;
+}
+
+@media (min-width: 560px) {
+    .first-block {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 107px ;
+        padding-bottom: 105px;
+        
+    }
+    
+    .first-block__box {
+        margin: 0;
+        padding: 0px 5px;
+    }
+    
+    .first-block__content h2 {
+        padding: 41px;
+        font-size: 24px;
+    }
+    
+    .second-block {
+       padding: 110px;
+       padding-bottom: 39px;
+    }
+    
+    .second-block__content_title {
+    font-size: 20px;
+    padding-top: 51px;
+    }
+    
+    .second-block__content_lyne {
+        width: 231px;
+    }
+    .second-block__content_social {
+        padding-top: 19px;
+    }
+    .second-block__content_social img {
+        padding: 0px 20px;
+    }
+    
+    .second-block__content_footer {
+        font-size: 15px;
+        padding-top: 80px ;
+    }
+}
+
+
+
+
+
+
+
+
+
